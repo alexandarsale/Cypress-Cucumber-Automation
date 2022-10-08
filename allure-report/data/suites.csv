@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jun 05 12:28:17 CEST 2022","Sun Jun 05 12:28:43 CEST 2022","25886","","Ordering products successfully","","","","Make an Order",""
+"passed","Sun Jun 05 12:28:43 CEST 2022","Sun Jun 05 12:29:10 CEST 2022","27161","","Ordering products successfully","","","","Make Order with increased Quantity",""
+"passed","Sun Jun 05 12:27:40 CEST 2022","Sun Jun 05 12:28:03 CEST 2022","23201","","Login Feature","","","","Login with valid credentials",""
+"passed","Sun Jun 05 12:29:31 CEST 2022","Sun Jun 05 12:30:05 CEST 2022","34111","","Search product by name","","","","Search product and Add to Cart",""
+"failed","Sun Jun 05 12:27:17 CEST 2022","Sun Jun 05 12:27:24 CEST 2022","7043","","Create new Account feature","","","","Create new Account",""

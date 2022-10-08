@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-06-05T10:26:46.373Z",
+    "end": "2022-06-05T10:27:24.287Z",
+    "duration": 37914,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f78ed3a3-a2d9-45eb-9efa-19e3c1626713",
+      "title": "",
+      "fullFile": "cypress\\e2e\\steps\\createNewAcc.feature",
+      "file": "cypress\\e2e\\steps\\createNewAcc.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b3e6859a-f795-4b32-91df-3473a4992aa2",
+          "title": "Create new Account feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create new Account",
+              "fullTitle": "Create new Account feature Create new Account",
+              "timedOut": null,
+              "duration": 7039,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: User Clicks on SignI",
+                "estack": "Error: Step implementation missing for: User Clicks on SignI\n    at Context.resolveAndRunStepDefinition (http://automationpractice.com/__cypress/tests?p=cypress\\e2e\\steps\\createNewAcc.feature:12564:11)\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\\e2e\\steps\\createNewAcc.feature:11879:35)",
+                "diff": null
+              },
+              "uuid": "8ae572eb-a6e0-4aef-886f-c1211c44d1b5",
+              "parentUUID": "b3e6859a-f795-4b32-91df-3473a4992aa2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "8ae572eb-a6e0-4aef-886f-c1211c44d1b5"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 7039,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

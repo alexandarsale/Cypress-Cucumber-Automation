@@ -1,0 +1,15 @@
+{
+ "email" : "szafiroski@gmail.com",
+ "password" : "01101995sale",
+ "firstname" : "RandomName",
+ "lastname" : "RandomLastName",
+ "randompass" : "123155151asD",
+ "address" : "randomadress",
+ "city" : "New York",
+ "zipcode" : "18430",
+"phone" : "5856317812347",
+"priceRange" : "27",
+"productName": ["Chiffon", "Summer"] ,
+"buttonName" : ["Add to cart"]  
+
+}
